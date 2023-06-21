@@ -1,0 +1,30 @@
+running develop
+Removing /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)
+running egg_info
+writing ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt
+writing top-level names to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt
+reading manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_brickpi3/motor.py -> /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+copying ros2_brickpi3/talker.py -> /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+running install
+running install_lib
+creating /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/motor.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/talker.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/__init__.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/motor.py to motor.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/talker.py to talker.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ros2_brickpi3/ros2_brickpi3.egg-info to /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor script to /home/pi/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+writing list of installed files to '/home/pi/ros2_ws/build/ros2_brickpi3/install.log'

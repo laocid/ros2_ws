@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001874] (-) JobUnselected: {'identifier': 'tutorial'}
+[0.002604] (ros2_brickpi3) JobQueued: {'identifier': 'ros2_brickpi3', 'dependencies': OrderedDict()}
+[0.004542] (ros2_brickpi3) JobStarted: {'identifier': 'ros2_brickpi3'}
+[0.099190] (-) TimerEvent: {}
+[0.199918] (-) TimerEvent: {}
+[0.300704] (-) TimerEvent: {}
+[0.401399] (-) TimerEvent: {}
+[0.502421] (-) TimerEvent: {}
+[0.603064] (-) TimerEvent: {}
+[0.703707] (-) TimerEvent: {}
+[0.804408] (-) TimerEvent: {}
+[0.905200] (-) TimerEvent: {}
+[1.006081] (-) TimerEvent: {}
+[1.107191] (-) TimerEvent: {}
+[1.207818] (-) TimerEvent: {}
+[1.308514] (-) TimerEvent: {}
+[1.409266] (-) TimerEvent: {}
+[1.509994] (-) TimerEvent: {}
+[1.610811] (-) TimerEvent: {}
+[1.711516] (-) TimerEvent: {}
+[1.812199] (-) TimerEvent: {}
+[1.912978] (-) TimerEvent: {}
+[2.013701] (-) TimerEvent: {}
+[2.114508] (-) TimerEvent: {}
+[2.215322] (-) TimerEvent: {}
+[2.316334] (-) TimerEvent: {}
+[2.417247] (-) TimerEvent: {}
+[2.518021] (-) TimerEvent: {}
+[2.618828] (-) TimerEvent: {}
+[2.719626] (-) TimerEvent: {}
+[2.820420] (-) TimerEvent: {}
+[2.921153] (-) TimerEvent: {}
+[3.021976] (-) TimerEvent: {}
+[3.091771] (ros2_brickpi3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/pi/ros2_ws/build/ros2_brickpi3/build'], 'cwd': '/home/pi/ros2_ws/build/ros2_brickpi3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2489,0', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.152 51266 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/ros2_brickpi3', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.152 51266 192.168.1.187 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[3.122102] (-) TimerEvent: {}
+[3.222838] (-) TimerEvent: {}
+[3.323583] (-) TimerEvent: {}
+[3.424317] (-) TimerEvent: {}
+[3.525104] (-) TimerEvent: {}
+[3.625765] (-) TimerEvent: {}
+[3.726507] (-) TimerEvent: {}
+[3.843941] (-) TimerEvent: {}
+[3.944848] (-) TimerEvent: {}
+[4.045828] (-) TimerEvent: {}
+[4.114333] (ros2_brickpi3) StdoutLine: {'line': b'running develop\n'}
+[4.146227] (-) TimerEvent: {}
+[4.191940] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.193157] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.201230] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.202200] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.246348] (-) TimerEvent: {}
+[4.347101] (-) TimerEvent: {}
+[4.414168] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[4.414779] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.415496] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[4.416014] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.416533] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[4.417193] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.447316] (-) TimerEvent: {}
+[4.547972] (-) TimerEvent: {}
+[4.648721] (-) TimerEvent: {}
+[4.749425] (-) TimerEvent: {}
+[4.850232] (-) TimerEvent: {}
+[4.932064] (ros2_brickpi3) CommandEnded: {'returncode': 0}
+[4.935262] (ros2_brickpi3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_brickpi3', 'build', '--build-base', '/home/pi/ros2_ws/build/ros2_brickpi3/build', 'install', '--record', '/home/pi/ros2_ws/build/ros2_brickpi3/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros2_ws/src/ros2_brickpi3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2489,0', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.152 51266 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/ros2_brickpi3', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.152 51266 192.168.1.187 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[4.950392] (-) TimerEvent: {}
+[5.051185] (-) TimerEvent: {}
+[5.151981] (-) TimerEvent: {}
+[5.252801] (-) TimerEvent: {}
+[5.353577] (-) TimerEvent: {}
+[5.454295] (-) TimerEvent: {}
+[5.555014] (-) TimerEvent: {}
+[5.655732] (-) TimerEvent: {}
+[5.756456] (-) TimerEvent: {}
+[5.857712] (-) TimerEvent: {}
+[5.883708] (ros2_brickpi3) StdoutLine: {'line': b'running egg_info\n'}
+[5.887222] (ros2_brickpi3) StdoutLine: {'line': b'writing ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/PKG-INFO\n'}
+[5.888656] (ros2_brickpi3) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/dependency_links.txt\n'}
+[5.889753] (ros2_brickpi3) StdoutLine: {'line': b'writing entry points to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/entry_points.txt\n'}
+[5.890976] (ros2_brickpi3) StdoutLine: {'line': b'writing requirements to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt\n'}
+[5.891872] (ros2_brickpi3) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt\n'}
+[5.901032] (ros2_brickpi3) StdoutLine: {'line': b"reading manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'\n"}
+[5.903790] (ros2_brickpi3) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.906774] (ros2_brickpi3) StdoutLine: {'line': b"writing manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'\n"}
+[5.907638] (ros2_brickpi3) StdoutLine: {'line': b'running build\n'}
+[5.908202] (ros2_brickpi3) StdoutLine: {'line': b'running build_py\n'}
+[5.908973] (ros2_brickpi3) StdoutLine: {'line': b'copying ros2_brickpi3/chatter.py -> /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3\n'}
+[5.910669] (ros2_brickpi3) StdoutLine: {'line': b'running install\n'}
+[5.911610] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.912118] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.912807] (ros2_brickpi3) StdoutLine: {'line': b'running install_lib\n'}
+[5.916253] (ros2_brickpi3) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/chatter.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3\n'}
+[5.921044] (ros2_brickpi3) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/chatter.py to chatter.cpython-310.pyc\n'}
+[5.922312] (ros2_brickpi3) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (chatter.py, line 19)\n'}
+[5.923199] (ros2_brickpi3) StdoutLine: {'line': b'running install_data\n'}
+[5.925422] (ros2_brickpi3) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.932796] (ros2_brickpi3) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.934659] (ros2_brickpi3) StdoutLine: {'line': b'Copying ../../build/ros2_brickpi3/ros2_brickpi3.egg-info to /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.0-py3.10.egg-info\n'}
+[5.944113] (ros2_brickpi3) StdoutLine: {'line': b'running install_scripts\n'}
+[5.957857] (-) TimerEvent: {}
+[6.027194] (ros2_brickpi3) StdoutLine: {'line': b'Installing motor script to /home/pi/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[6.029980] (ros2_brickpi3) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/ros2_brickpi3/install.log'\n"}
+[6.058155] (-) TimerEvent: {}
+[6.161247] (-) TimerEvent: {}
+[6.166193] (ros2_brickpi3) CommandEnded: {'returncode': 0}
+[6.252494] (ros2_brickpi3) JobEnded: {'identifier': 'ros2_brickpi3', 'rc': 0}
+[6.256895] (-) EventReactorShutdown: {}

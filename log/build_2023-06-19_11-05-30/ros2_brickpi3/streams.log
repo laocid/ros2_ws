@@ -1,0 +1,31 @@
+[3.931s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build --no-deps install_data
+[5.113s] running develop
+[5.114s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.115s]   warnings.warn(
+[5.119s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.121s]   warnings.warn(
+[5.383s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.385s]   warnings.warn(
+[5.386s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.387s]   warnings.warn(
+[5.387s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.388s]   warnings.warn(
+[5.853s] running egg_info
+[5.856s] writing ros2_brickpi3.egg-info/PKG-INFO
+[5.859s] writing dependency_links to ros2_brickpi3.egg-info/dependency_links.txt
+[5.859s] writing entry points to ros2_brickpi3.egg-info/entry_points.txt
+[5.860s] writing requirements to ros2_brickpi3.egg-info/requires.txt
+[5.860s] writing top-level names to ros2_brickpi3.egg-info/top_level.txt
+[5.866s] reading manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'
+[5.870s] writing manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'
+[5.876s] running build_ext
+[5.877s] Creating /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)
+[5.882s] Installing color script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.885s] Installing gyro script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.885s] Installing motor script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.886s] Installing touch script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.887s] Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.888s] 
+[5.889s] Installed /home/pi/wk2/ros2_ws/build/ros2_brickpi3
+[5.891s] running install_data
+[6.076s] Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build --no-deps install_data

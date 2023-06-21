@@ -1,0 +1,24 @@
+[3.917s] Invoking command in '/home/pi/ros2_ws/src/tutorial': PYTHONPATH=/home/pi/ros2_ws/build/tutorial/prefix_override:/home/pi/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial build --build-base /home/pi/ros2_ws/build/tutorial/build install --record /home/pi/ros2_ws/build/tutorial/install.log --single-version-externally-managed
+[4.992s] running egg_info
+[4.995s] writing ../../build/tutorial/tutorial.egg-info/PKG-INFO
+[4.996s] writing dependency_links to ../../build/tutorial/tutorial.egg-info/dependency_links.txt
+[4.997s] writing entry points to ../../build/tutorial/tutorial.egg-info/entry_points.txt
+[4.998s] writing requirements to ../../build/tutorial/tutorial.egg-info/requires.txt
+[4.999s] writing top-level names to ../../build/tutorial/tutorial.egg-info/top_level.txt
+[5.008s] reading manifest file '../../build/tutorial/tutorial.egg-info/SOURCES.txt'
+[5.012s] writing manifest file '../../build/tutorial/tutorial.egg-info/SOURCES.txt'
+[5.013s] running build
+[5.013s] running build_py
+[5.015s] running install
+[5.016s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.016s]   warnings.warn(
+[5.018s] running install_lib
+[5.023s] running install_data
+[5.026s] running install_egg_info
+[5.032s] removing '/home/pi/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[5.034s] Copying ../../build/tutorial/tutorial.egg-info to /home/pi/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial-0.0.0-py3.10.egg-info
+[5.040s] running install_scripts
+[5.128s] Installing listener script to /home/pi/ros2_ws/install/tutorial/lib/tutorial
+[5.128s] Installing talker script to /home/pi/ros2_ws/install/tutorial/lib/tutorial
+[5.130s] writing list of installed files to '/home/pi/ros2_ws/build/tutorial/install.log'
+[5.257s] Invoked command in '/home/pi/ros2_ws/src/tutorial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/tutorial/prefix_override:/home/pi/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial build --build-base /home/pi/ros2_ws/build/tutorial/build install --record /home/pi/ros2_ws/build/tutorial/install.log --single-version-externally-managed

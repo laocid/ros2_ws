@@ -1,0 +1,27 @@
+[2.780s] Invoking command in '/home/pi/wk2/ros2_ws/build/my_package': PYTHONPATH=/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/my_package/build --no-deps install_data
+[3.904s] running develop
+[3.905s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.906s]   warnings.warn(
+[3.910s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.911s]   warnings.warn(
+[4.149s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[4.149s]   warnings.warn(
+[4.151s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.151s]   warnings.warn(
+[4.152s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[4.153s]   warnings.warn(
+[4.583s] running egg_info
+[4.584s] writing my_package.egg-info/PKG-INFO
+[4.585s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[4.586s] writing entry points to my_package.egg-info/entry_points.txt
+[4.587s] writing requirements to my_package.egg-info/requires.txt
+[4.588s] writing top-level names to my_package.egg-info/top_level.txt
+[4.596s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[4.599s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[4.606s] running build_ext
+[4.606s] Creating /home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[4.610s] Installing my_node = my_package.my_node:mainchatter script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.612s] 
+[4.613s] Installed /home/pi/wk2/ros2_ws/build/my_package
+[4.613s] running install_data
+[4.752s] Invoked command in '/home/pi/wk2/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/my_package/build --no-deps install_data

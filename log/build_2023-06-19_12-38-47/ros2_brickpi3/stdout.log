@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing ros2_brickpi3.egg-info/PKG-INFO
+writing dependency_links to ros2_brickpi3.egg-info/dependency_links.txt
+writing entry points to ros2_brickpi3.egg-info/entry_points.txt
+writing requirements to ros2_brickpi3.egg-info/requires.txt
+writing top-level names to ros2_brickpi3.egg-info/top_level.txt
+reading manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'
+writing manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)
+Installing color script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+Installing gyro script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+Installing motor script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+Installing mynode script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+Installing touch script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+
+Installed /home/pi/wk2/ros2_ws/build/ros2_brickpi3
+running install_data

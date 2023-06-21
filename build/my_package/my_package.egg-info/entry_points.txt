@@ -1,0 +1,4 @@
+[console_scripts]
+chatter = my_package.chatter:main
+my_node = my_package.my_node:main
+

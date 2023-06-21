@@ -1,0 +1,46 @@
+[2.581s] Invoking command in '/home/pi/ros2_ws/build/ros2_brickpi3': PYTHONPATH=/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/ros2_ws/build/ros2_brickpi3/build
+[3.594s] running develop
+[3.596s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.596s]   warnings.warn(
+[3.601s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.601s]   warnings.warn(
+[3.816s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[3.816s]   warnings.warn(
+[3.817s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.817s]   warnings.warn(
+[3.818s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.818s]   warnings.warn(
+[4.228s] Removing /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)
+[4.358s] Invoked command in '/home/pi/ros2_ws/build/ros2_brickpi3' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/ros2_ws/build/ros2_brickpi3/build
+[4.366s] Invoking command in '/home/pi/ros2_ws/src/ros2_brickpi3': PYTHONPATH=/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_brickpi3 build --build-base /home/pi/ros2_ws/build/ros2_brickpi3/build install --record /home/pi/ros2_ws/build/ros2_brickpi3/install.log --single-version-externally-managed
+[5.301s] running egg_info
+[5.304s] writing ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/PKG-INFO
+[5.305s] writing dependency_links to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/dependency_links.txt
+[5.306s] writing entry points to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/entry_points.txt
+[5.307s] writing requirements to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt
+[5.307s] writing top-level names to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt
+[5.315s] reading manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[5.317s] adding license file 'LICENSE'
+[5.319s] writing manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[5.320s] running build
+[5.320s] running build_py
+[5.321s] copying ros2_brickpi3/motor.py -> /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[5.322s] copying ros2_brickpi3/talker.py -> /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[5.323s] running install
+[5.324s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.324s]   warnings.warn(
+[5.325s] running install_lib
+[5.328s] creating /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[5.328s] copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/motor.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[5.329s] copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/talker.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[5.330s] copying /home/pi/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/__init__.py -> /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[5.332s] byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/motor.py to motor.cpython-310.pyc
+[5.335s] byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/talker.py to talker.cpython-310.pyc
+[5.337s] byte-compiling /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/__init__.py to __init__.cpython-310.pyc
+[5.338s] running install_data
+[5.340s] running install_egg_info
+[5.346s] Copying ../../build/ros2_brickpi3/ros2_brickpi3.egg-info to /home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.0-py3.10.egg-info
+[5.351s] running install_scripts
+[5.427s] Installing motor script to /home/pi/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[5.429s] writing list of installed files to '/home/pi/ros2_ws/build/ros2_brickpi3/install.log'
+[5.547s] Invoked command in '/home/pi/ros2_ws/src/ros2_brickpi3' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_brickpi3 build --build-base /home/pi/ros2_ws/build/ros2_brickpi3/build install --record /home/pi/ros2_ws/build/ros2_brickpi3/install.log --single-version-externally-managed

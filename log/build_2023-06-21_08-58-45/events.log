@@ -1,0 +1,31 @@
+[0.000000] (-) TimerEvent: {}
+[0.001087] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002210] (ros2_brickpi3) JobQueued: {'identifier': 'ros2_brickpi3', 'dependencies': OrderedDict()}
+[0.002821] (tutorial) JobQueued: {'identifier': 'tutorial', 'dependencies': OrderedDict()}
+[0.004707] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.074458] (ros2_brickpi3) JobStarted: {'identifier': 'ros2_brickpi3'}
+[0.099691] (-) TimerEvent: {}
+[0.117833] (tutorial) JobStarted: {'identifier': 'tutorial'}
+[0.199886] (-) TimerEvent: {}
+[0.300659] (-) TimerEvent: {}
+[0.401554] (-) TimerEvent: {}
+[0.502326] (-) TimerEvent: {}
+[0.603076] (-) TimerEvent: {}
+[0.703809] (-) TimerEvent: {}
+[0.804636] (-) TimerEvent: {}
+[0.846899] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.904866] (-) TimerEvent: {}
+[1.005605] (-) TimerEvent: {}
+[1.106491] (-) TimerEvent: {}
+[1.207278] (-) TimerEvent: {}
+[1.307967] (-) TimerEvent: {}
+[1.408669] (-) TimerEvent: {}
+[1.509442] (-) TimerEvent: {}
+[1.610108] (-) TimerEvent: {}
+[1.710846] (-) TimerEvent: {}
+[1.811504] (-) TimerEvent: {}
+[1.912360] (-) TimerEvent: {}
+[2.013565] (-) TimerEvent: {}
+[2.034904] (ros2_brickpi3) JobEnded: {'identifier': 'ros2_brickpi3', 'rc': 'SIGINT'}
+[2.037244] (tutorial) JobEnded: {'identifier': 'tutorial', 'rc': 'SIGINT'}
+[2.048477] (-) EventReactorShutdown: {}

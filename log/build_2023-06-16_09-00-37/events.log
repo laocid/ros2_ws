@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001284] (-) JobUnselected: {'identifier': 'ros2_brickpi3'}
+[0.001634] (-) JobUnselected: {'identifier': 'tutorial'}
+[0.002322] (-) EventReactorShutdown: {}
