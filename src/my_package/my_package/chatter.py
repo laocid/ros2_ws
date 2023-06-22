@@ -17,8 +17,22 @@ class Talker(Node):
         self.rw_publisher = self.create_publisher(Int32, "/rp2/right/speed", 10)
 
         self.i = 0
-      
-    def update_speed(self, linear_velocity, angular_velocity):
+    
+    def update_speed(self, lw_speed, rw_speed):
+        # Differential drive kinematics
+        self.lw_speed = lw_speed
+        self.rw_speed = rw_speed
+        
+        lw_msg = Int32()
+        rw_msg = Int32()
+
+        lw_msg.data = int(self.lw_speed)
+        rw_msg.data = int(self.rw_speed)
+
+        self.lw_publisher.publish(lw_msg)
+        self.rw_publisher.publish(rw_msg)
+        
+    def update_velocity(self, linear_velocity, angular_velocity):
         # Differential drive kinematics
         self.lw_speed = linear_velocity - (angular_velocity * (self.wheel_distance / 2))
         self.rw_speed = linear_velocity + (angular_velocity * (self.wheel_distance / 2))
@@ -39,17 +53,17 @@ class Talker(Node):
         self.i += 1
     
     def stop_movement(self):
-        self.update_speed(0,0)
+        self.update_velocity(0,0)
         
     def go_straight(self):
         # D = s*t
-        self.update_speed(self.linear_velocity, 0.0)
+        self.update_velocity(self.linear_velocity, 0.0)
 
     def turn_left(self):
-        self.update_speed(self.linear_velocity, -self.angular_velocity)
+        self.update_velocity(self.linear_velocity, -self.angular_velocity)
         
     def turn_right(self):
-        self.update_speed(self.linear_velocity, self.angular_velocity)
+        self.update_velocity(self.linear_velocity, self.angular_velocity)
         
     def turn_deg(self, degrees, direction):
         radians = math.radians(degrees)
@@ -58,7 +72,7 @@ class Talker(Node):
         coeff = 2.5
         time_required = abs(float(radians / self.angular_velocity)) * coeff
 
-        self.update_speed(0.0, self.angular_velocity) 
+        self.update_velocity(0.0, self.angular_velocity) 
         self.stop_movement()
     
     def turn_left_deg(self, degrees):
@@ -82,9 +96,9 @@ class Talker(Node):
         time_required = float(2 * math.pi * radius) / self.linear_velocity
 
         if direction > 0:
-            self.update_speed(self.linear_velocity, angular_velocity)
+            self.update_velocity(self.linear_velocity, angular_velocity)
         elif direction < 0:
-            self.update_speed(-self.linear_velocity, -angular_velocity)
+            self.update_velocity(-self.linear_velocity, -angular_velocity)
             
         time.sleep(time_required)
         self.stop_movement()
@@ -106,7 +120,12 @@ def main():
     # publisher.turn_left()
     # publisher.update_speed(30, 2)
     # time.sleep(5)
+    
     publisher.stop_movement()
+    publisher.stop_movement()
+    publisher.stop_movement()
+    publisher.stop_movement()
+
     # publisher.turn(360, 50)
     # publisher.draw_square(length=7.5, linear_velocity=50, angular_velocity=20)
     # publisher.draw_circle(0.5, 0.3)

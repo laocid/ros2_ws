@@ -1,4 +1,5 @@
 import rclpy
+import time
 from rclpy.node import Node
 from std_msgs.msg import String
 from .chatter import Talker
@@ -22,16 +23,15 @@ class MyNode(Node):
             self.right_color_callback, 
             100)
         self.right_color_subscriber # prevent unused variable warning
-        
-        self.linear_velocity = 35
-        
+                
         # Create object to talk to motors
-        self.talker = Talker(linear_velocity=20, wheel_distance=9.5)
-    
+        self.linear_velocity = 80
+        self.talker = Talker(linear_velocity=25, wheel_distance=9.5)
+
         self.lcr = "?"
         self.rcr = "?"
         
-        timer_period = 0.1
+        timer_period = 0.01
         self.timer = self.create_timer(timer_period, self.line_follower)
     
     # Save color readings from sensors
@@ -44,26 +44,18 @@ class MyNode(Node):
         self.rcr = msg.data
     
     # Spin constantly and control car direction
-    def line_follower(self):            
-        if self.lcr == "white" and self.rcr != "white":
+    def line_follower(self):      
+        if self.lcr == self.rcr:      
+            self.talker.update_velocity(self.linear_velocity, 0.0)
+            self.get_logger().info(f"L == R -> GOING STRAIGHT!")
+        elif self.lcr == "white" and self.rcr != "white":
             self.get_logger().info(f"L:WHITE/R:NOT -> turning left!")
-            self.talker.update_speed(self.linear_velocity, -18)
+            # self.talker.update_speed(self.linear_velocity*0.5, -self.linear_velocity)
+            self.talker.update_velocity(self.linear_velocity*0.1, -40)
         elif self.lcr != "white" and self.rcr == "white":
             self.get_logger().info(f"L:NOT/R:WHITE -> turning right!")
-            self.talker.update_speed(self.linear_velocity, 18)
-        # elif self.lcr == "white" and self.rcr == "white":
-        #     self.get_logger().info(f"L:WHITE/R:WHITE -> GOING STRAIGHT!")
-        #     self.talker.update_speed(self.linear_velocity, 0.0)
-        else:
-            # self.talker.stop_movement()
-            self.talker.update_speed(self.linear_velocity, 0.0)
-            self.get_logger().info(f"L == R -> GOING STRAIGHT!")
-
-            # self.get_logger().info(f"Doing nothing with {self.lcr} and {self.rcr}")
-            # self.get_logger().info(f"Doing nothing with {self.lcr} and {self.rcr}")
-    
-    def gyro_callback(self, msg):
-        self.rotations = msg.data
+            # self.talker.update_speed(-self.linear_velocity, self.linear_velocity*0.5)
+            self.talker.update_velocity(self.linear_velocity*0.1, 40)
 
 def main(args=None):
     rclpy.init(args=args) 
