@@ -1,4 +1,9 @@
 [console_scripts]
-chatter = my_package.chatter:main
+color = my_package.color:main
+drive = my_package.drive:main
+gyro = my_package.gyro:main
+motor = my_package.motor:main
 my_node = my_package.my_node:main
+touch = my_package.touch:main
+ultrasonic = my_package.ultrasonic:main
 

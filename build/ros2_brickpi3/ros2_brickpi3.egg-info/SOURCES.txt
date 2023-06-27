@@ -8,14 +8,15 @@ setup.py
 ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt
 ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt
 ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/zip-safe
+launch/drive.launch.py
+launch/motors.launch.py
 resource/ros2_brickpi3
 ros2_brickpi3/__init__.py
 ros2_brickpi3/color.py
+ros2_brickpi3/drive.py
 ros2_brickpi3/gyro.py
 ros2_brickpi3/killall.py
-ros2_brickpi3/line_follower.py
 ros2_brickpi3/motor.py
-ros2_brickpi3/motor_old.py
 ros2_brickpi3/touch.py
 ros2_brickpi3/ultrasonic.py
 ros2_brickpi3.egg-info/PKG-INFO

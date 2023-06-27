@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.001806] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002449] (ros2_brickpi3) JobQueued: {'identifier': 'ros2_brickpi3', 'dependencies': OrderedDict()}
+[0.004352] (tutorial) JobQueued: {'identifier': 'tutorial', 'dependencies': OrderedDict()}
+[0.004557] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.069578] (ros2_brickpi3) JobStarted: {'identifier': 'ros2_brickpi3'}
+[0.099130] (-) TimerEvent: {}
+[0.103213] (tutorial) JobStarted: {'identifier': 'tutorial'}
+[0.199320] (-) TimerEvent: {}
+[0.300121] (-) TimerEvent: {}
+[0.400867] (-) TimerEvent: {}
+[0.501549] (-) TimerEvent: {}
+[0.602242] (-) TimerEvent: {}
+[0.703008] (-) TimerEvent: {}
+[0.803726] (-) TimerEvent: {}
+[0.904435] (-) TimerEvent: {}
+[1.005193] (-) TimerEvent: {}
+[1.106028] (-) TimerEvent: {}
+[1.207453] (-) TimerEvent: {}
+[1.310643] (-) TimerEvent: {}
+[1.411550] (-) TimerEvent: {}
+[1.512320] (-) TimerEvent: {}
+[1.613125] (-) TimerEvent: {}
+[1.713860] (-) TimerEvent: {}
+[1.814624] (-) TimerEvent: {}
+[1.915401] (-) TimerEvent: {}
+[2.016098] (-) TimerEvent: {}
+[2.116858] (-) TimerEvent: {}
+[2.217772] (-) TimerEvent: {}
+[2.318969] (-) TimerEvent: {}
+[2.419735] (-) TimerEvent: {}
+[2.520457] (-) TimerEvent: {}
+[2.621190] (-) TimerEvent: {}
+[2.721892] (-) TimerEvent: {}
+[2.822675] (-) TimerEvent: {}
+[2.923680] (-) TimerEvent: {}
+[3.024422] (-) TimerEvent: {}
+[3.125127] (-) TimerEvent: {}
+[3.225942] (-) TimerEvent: {}
+[3.329113] (-) TimerEvent: {}
+[3.430317] (-) TimerEvent: {}
+[3.532195] (-) TimerEvent: {}
+[3.633133] (-) TimerEvent: {}
+[3.734045] (-) TimerEvent: {}
+[3.835095] (-) TimerEvent: {}
+[3.936105] (-) TimerEvent: {}
+[4.036985] (-) TimerEvent: {}
+[4.137873] (-) TimerEvent: {}
+[4.238702] (-) TimerEvent: {}
+[4.339472] (-) TimerEvent: {}
+[4.440378] (-) TimerEvent: {}
+[4.541610] (-) TimerEvent: {}
+[4.644574] (-) TimerEvent: {}
+[4.746801] (-) TimerEvent: {}
+[4.850098] (-) TimerEvent: {}
+[4.950852] (-) TimerEvent: {}
+[5.051808] (-) TimerEvent: {}
+[5.153076] (-) TimerEvent: {}
+[5.254026] (-) TimerEvent: {}
+[5.355095] (-) TimerEvent: {}
+[5.456886] (-) TimerEvent: {}
+[5.559276] (-) TimerEvent: {}
+[5.661629] (-) TimerEvent: {}
+[5.763512] (-) TimerEvent: {}
+[5.865468] (-) TimerEvent: {}
+[5.874077] (tutorial) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/wk2/ros2_ws/build/tutorial/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/wk2/ros2_ws/build/tutorial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.18 38738 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/wk2/ros2_ws/build/tutorial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.18 38738 192.168.1.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.891077] (ros2_brickpi3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/wk2/ros2_ws/build/ros2_brickpi3/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/wk2/ros2_ws/build/ros2_brickpi3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.18 38738 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/wk2/ros2_ws/build/ros2_brickpi3', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.18 38738 192.168.1.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.910033] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/wk2/ros2_ws/build/my_package/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/wk2/ros2_ws/build/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.18 38738 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/wk2/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.18 38738 192.168.1.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.965630] (-) TimerEvent: {}
+[6.067317] (-) TimerEvent: {}
+[6.169056] (-) TimerEvent: {}
+[6.270989] (-) TimerEvent: {}
+[6.372539] (-) TimerEvent: {}
+[6.474140] (-) TimerEvent: {}
+[6.575700] (-) TimerEvent: {}
+[6.677214] (-) TimerEvent: {}
+[6.778621] (-) TimerEvent: {}
+[6.880228] (-) TimerEvent: {}
+[6.982026] (-) TimerEvent: {}
+[7.084103] (-) TimerEvent: {}
+[7.185757] (-) TimerEvent: {}
+[7.255780] (ros2_brickpi3) StdoutLine: {'line': b'running develop\n'}
+[7.257272] (my_package) StdoutLine: {'line': b'running develop\n'}
+[7.262755] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.263704] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.264325] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.265005] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.269390] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.270108] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.274333] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.275315] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.280888] (tutorial) StdoutLine: {'line': b'running develop\n'}
+[7.282674] (tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.283371] (tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.285963] (-) TimerEvent: {}
+[7.288227] (tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.289715] (tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.386194] (-) TimerEvent: {}
+[7.487836] (-) TimerEvent: {}
+[7.571404] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[7.572438] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.574708] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[7.575707] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.577874] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[7.578864] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.585492] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[7.586216] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.587316] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[7.587902] (-) TimerEvent: {}
+[7.588551] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.589543] (tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[7.590125] (tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.590890] (tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[7.591400] (tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.591847] (ros2_brickpi3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[7.592373] (ros2_brickpi3) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.592840] (tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[7.593308] (tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.688138] (-) TimerEvent: {}
+[7.793354] (-) TimerEvent: {}
+[7.894355] (-) TimerEvent: {}
+[7.995248] (-) TimerEvent: {}
+[8.096301] (-) TimerEvent: {}
+[8.139051] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[8.140573] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[8.142999] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[8.143840] (tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[8.144449] (tutorial) StdoutLine: {'line': b'writing tutorial.egg-info/PKG-INFO\n'}
+[8.145144] (tutorial) StdoutLine: {'line': b'writing dependency_links to tutorial.egg-info/dependency_links.txt\n'}
+[8.146019] (tutorial) StdoutLine: {'line': b'writing entry points to tutorial.egg-info/entry_points.txt\n'}
+[8.147380] (tutorial) StdoutLine: {'line': b'writing requirements to tutorial.egg-info/requires.txt\n'}
+[8.148464] (tutorial) StdoutLine: {'line': b'writing top-level names to tutorial.egg-info/top_level.txt\n'}
+[8.149407] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[8.151676] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[8.153694] (ros2_brickpi3) StdoutLine: {'line': b'running egg_info\n'}
+[8.154887] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[8.155437] (ros2_brickpi3) StdoutLine: {'line': b'writing ros2_brickpi3.egg-info/PKG-INFO\n'}
+[8.156285] (ros2_brickpi3) StdoutLine: {'line': b'writing dependency_links to ros2_brickpi3.egg-info/dependency_links.txt\n'}
+[8.157112] (ros2_brickpi3) StdoutLine: {'line': b'writing entry points to ros2_brickpi3.egg-info/entry_points.txt\n'}
+[8.166712] (tutorial) StdoutLine: {'line': b"reading manifest file 'tutorial.egg-info/SOURCES.txt'\n"}
+[8.168535] (ros2_brickpi3) StdoutLine: {'line': b'writing requirements to ros2_brickpi3.egg-info/requires.txt\n'}
+[8.169461] (ros2_brickpi3) StdoutLine: {'line': b'writing top-level names to ros2_brickpi3.egg-info/top_level.txt\n'}
+[8.170351] (tutorial) StdoutLine: {'line': b"writing manifest file 'tutorial.egg-info/SOURCES.txt'\n"}
+[8.170981] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[8.171691] (tutorial) StdoutLine: {'line': b'running build_ext\n'}
+[8.172180] (ros2_brickpi3) StdoutLine: {'line': b"reading manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'\n"}
+[8.172632] (tutorial) StdoutLine: {'line': b'Creating /home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial.egg-link (link to .)\n'}
+[8.173388] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[8.174492] (tutorial) StdoutLine: {'line': b'Installing listener script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial\n'}
+[8.175421] (tutorial) StdoutLine: {'line': b'Installing talker script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial\n'}
+[8.177049] (tutorial) StdoutLine: {'line': b'\n'}
+[8.177870] (tutorial) StdoutLine: {'line': b'Installed /home/pi/wk2/ros2_ws/build/tutorial\n'}
+[8.178816] (tutorial) StdoutLine: {'line': b'running install_data\n'}
+[8.180348] (ros2_brickpi3) StdoutLine: {'line': b"writing manifest file 'ros2_brickpi3.egg-info/SOURCES.txt'\n"}
+[8.189995] (ros2_brickpi3) StdoutLine: {'line': b'running build_ext\n'}
+[8.192127] (ros2_brickpi3) StdoutLine: {'line': b'Creating /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)\n'}
+[8.194484] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[8.197587] (my_package) StdoutLine: {'line': b'Creating /home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[8.199299] (-) TimerEvent: {}
+[8.202254] (ros2_brickpi3) StdoutLine: {'line': b'Installing color script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.203637] (ros2_brickpi3) StdoutLine: {'line': b'Installing drive script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.207560] (ros2_brickpi3) StdoutLine: {'line': b'Installing gyro script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.208763] (ros2_brickpi3) StdoutLine: {'line': b'Installing motor script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.212379] (my_package) StdoutLine: {'line': b'Installing color script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.214571] (ros2_brickpi3) StdoutLine: {'line': b'Installing touch script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.215855] (my_package) StdoutLine: {'line': b'Installing drive script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.218209] (ros2_brickpi3) StdoutLine: {'line': b'Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3\n'}
+[8.220394] (my_package) StdoutLine: {'line': b'Installing gyro script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.223480] (ros2_brickpi3) StdoutLine: {'line': b'\n'}
+[8.224605] (ros2_brickpi3) StdoutLine: {'line': b'Installed /home/pi/wk2/ros2_ws/build/ros2_brickpi3\n'}
+[8.226345] (my_package) StdoutLine: {'line': b'Installing motor script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.228008] (ros2_brickpi3) StdoutLine: {'line': b'running install_data\n'}
+[8.229551] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.232140] (my_package) StdoutLine: {'line': b'Installing touch script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.234362] (my_package) StdoutLine: {'line': b'Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[8.237376] (my_package) StdoutLine: {'line': b'\n'}
+[8.240361] (my_package) StdoutLine: {'line': b'Installed /home/pi/wk2/ros2_ws/build/my_package\n'}
+[8.243201] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[8.299841] (-) TimerEvent: {}
+[8.403988] (-) TimerEvent: {}
+[8.452542] (tutorial) CommandEnded: {'returncode': 0}
+[8.504238] (-) TimerEvent: {}
+[8.605529] (-) TimerEvent: {}
+[8.610615] (tutorial) JobEnded: {'identifier': 'tutorial', 'rc': 0}
+[8.623606] (my_package) CommandEnded: {'returncode': 0}
+[8.673186] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[8.680964] (ros2_brickpi3) CommandEnded: {'returncode': 0}
+[8.706658] (-) TimerEvent: {}
+[8.735112] (ros2_brickpi3) JobEnded: {'identifier': 'ros2_brickpi3', 'rc': 0}
+[8.740106] (-) EventReactorShutdown: {}

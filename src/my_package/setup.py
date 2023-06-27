@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import setup
 
 package_name = 'my_package'
@@ -10,18 +12,24 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='pi',
     maintainer_email='laocid@proton.me',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='My custom robot code',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = my_package.my_node:main',
-            'chatter = my_package.chatter:main',
+            "my_node = my_package.my_node:main",
+            "color = my_package.color:main",
+            "drive = my_package.drive:main",
+            "gyro = my_package.gyro:main",
+            "motor = my_package.motor:main",
+            "touch = my_package.touch:main",
+            "ultrasonic = my_package.ultrasonic:main",
         ],
     },
 )

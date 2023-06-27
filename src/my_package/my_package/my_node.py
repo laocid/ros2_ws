@@ -1,69 +1,76 @@
+#!/usr/bin/env python3
 import rclpy
-import time
 from rclpy.node import Node
-from std_msgs.msg import String
-from .chatter import Talker
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+from nav_msgs.msg import Odometry
+import numpy as np
 
+#  Class for handle My Node
 class MyNode(Node):
+
     def __init__(self):
-        super().__init__('mynode') # Initialize node with name, 'mynode'
-
-        # Subscribe to left color
-        self.left_color_subscriber = self.create_subscription(
-            String, 
-            '/rp2/left/color',
-            self.left_color_callback, 
-            100)
-        self.left_color_subscriber # prevent unused variable warning
-
-        # Subscribe to right color        
-        self.right_color_subscriber = self.create_subscription(
-            String, 
-            '/rp2/right/color',
-            self.right_color_callback, 
-            100)
-        self.right_color_subscriber # prevent unused variable warning
-                
-        # Create object to talk to motors
-        self.linear_velocity = 80
-        self.talker = Talker(linear_velocity=25, wheel_distance=9.5)
-
-        self.lcr = "?"
-        self.rcr = "?"
+        super().__init__('my_node')
         
-        timer_period = 0.01
-        self.timer = self.create_timer(timer_period, self.line_follower)
-    
-    # Save color readings from sensors
-    def left_color_callback(self, msg):
-        self.get_logger().info(f"Called: left_color_callback()")
-        self.lcr = msg.data
-    
-    def right_color_callback(self, msg):
-        self.get_logger().info(f"Called: right_color_callback()")
-        self.rcr = msg.data
-    
-    # Spin constantly and control car direction
-    def line_follower(self):      
-        if self.lcr == self.rcr:      
-            self.talker.update_velocity(self.linear_velocity, 0.0)
-            self.get_logger().info(f"L == R -> GOING STRAIGHT!")
-        elif self.lcr == "white" and self.rcr != "white":
-            self.get_logger().info(f"L:WHITE/R:NOT -> turning left!")
-            # self.talker.update_speed(self.linear_velocity*0.5, -self.linear_velocity)
-            self.talker.update_velocity(self.linear_velocity*0.1, -40)
-        elif self.lcr != "white" and self.rcr == "white":
-            self.get_logger().info(f"L:NOT/R:WHITE -> turning right!")
-            # self.talker.update_speed(-self.linear_velocity, self.linear_velocity*0.5)
-            self.talker.update_velocity(self.linear_velocity*0.1, 40)
+        self.cmd_data = Twist()
+        self.odom_data = Odometry()
+        self.target_distance = 0.5
 
-def main(args=None):
-    rclpy.init(args=args) 
+        # Setup cmd publisher
+        self.cmd_publisher = self.create_publisher(Twist, 'cmd', 10)
 
-    mynode = MyNode()
+        # Setup odom subscription
+        self.odom_subscription = self.create_subscription(
+            Odometry,
+            'odom',
+            self.odom_callback,
+            10
+        )
+        
+        # Set velocities to zero
+        self.reset_movement()
+        
+        self.update_speed(lx=0.1, ly=self.cmd_data.linear.y, lz=self.cmd_data.linear.z,ax=self.cmd_data.angular.x,ay=self.cmd_data.angular.y,az=self.cmd_data.angular.z)
 
-    rclpy.spin(mynode) # start listening for sensor readings
+        # Setup timer callback
+        timer_period = 0.05  # seconds
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+                
+    # Call every 0.05 seconds
+    def timer_callback(self):
+        if self.odom_data.pose.pose.position.x > self.target_distance:
+            self.reset_movement()
+        self.cmd_publisher.publish(self.cmd_data)
+
+    # Invoke on every odometer reading
+    def odom_callback(self, msg):
+        self.odom_data = msg
+        self.get_logger().info(f"posx: {self.odom_data.pose.pose.position.x}")
     
+    def update_speed(self, lx, ly, lz, ax, ay, az):
+        self.cmd_data.linear.x = lx
+        self.cmd_data.linear.y = ly        
+        self.cmd_data.linear.z = lz        
+        self.cmd_data.angular.x = ax        
+        self.cmd_data.angular.y = ay        
+        self.cmd_data.angular.z = az        
+    
+    def reset_movement(self):
+        self.update_speed(0.0,0.0,0.0,0.0,0.0,0.0)
+        
+# Main function
+def main(args = None):
+    rclpy.init(args = args)
+
+    my_node = MyNode()
+
+    try:
+        rclpy.spin(my_node)
+    except KeyboardInterrupt:
+        pass
+        
+    # Destroy the node (explicitly)
+    my_node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
