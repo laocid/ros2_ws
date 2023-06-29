@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces -- -j4 -l4
+Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces -- -j4 -l4
+Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces
+Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces

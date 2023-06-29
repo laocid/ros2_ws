@@ -1,0 +1,37 @@
+[5.801s] Invoking command in '/home/pi/wk2/ros2_ws/build/tutorial': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/tutorial/build
+[7.106s] running develop
+[7.108s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.108s]   warnings.warn(
+[7.113s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.114s]   warnings.warn(
+[7.391s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[7.392s]   warnings.warn(
+[7.393s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[7.394s]   warnings.warn(
+[7.394s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[7.395s]   warnings.warn(
+[8.222s] Invoked command in '/home/pi/wk2/ros2_ws/build/tutorial' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/tutorial/build
+[8.223s] Invoking command in '/home/pi/wk2/ros2_ws/src/tutorial': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial build --build-base /home/pi/wk2/ros2_ws/build/tutorial/build install --record /home/pi/wk2/ros2_ws/build/tutorial/install.log --single-version-externally-managed
+[9.428s] running egg_info
+[9.430s] writing ../../build/tutorial/tutorial.egg-info/PKG-INFO
+[9.435s] writing dependency_links to ../../build/tutorial/tutorial.egg-info/dependency_links.txt
+[9.437s] writing entry points to ../../build/tutorial/tutorial.egg-info/entry_points.txt
+[9.438s] writing requirements to ../../build/tutorial/tutorial.egg-info/requires.txt
+[9.439s] writing top-level names to ../../build/tutorial/tutorial.egg-info/top_level.txt
+[9.458s] reading manifest file '../../build/tutorial/tutorial.egg-info/SOURCES.txt'
+[9.464s] writing manifest file '../../build/tutorial/tutorial.egg-info/SOURCES.txt'
+[9.466s] running build
+[9.466s] running build_py
+[9.471s] running install
+[9.472s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.473s]   warnings.warn(
+[9.474s] running install_lib
+[9.483s] running install_data
+[9.489s] running install_egg_info
+[9.498s] removing '/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[9.500s] Copying ../../build/tutorial/tutorial.egg-info to /home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial-0.0.0-py3.10.egg-info
+[9.510s] running install_scripts
+[9.683s] Installing listener script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial
+[9.687s] Installing talker script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial
+[9.695s] writing list of installed files to '/home/pi/wk2/ros2_ws/build/tutorial/install.log'
+[10.058s] Invoked command in '/home/pi/wk2/ros2_ws/src/tutorial' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial build --build-base /home/pi/wk2/ros2_ws/build/tutorial/build install --record /home/pi/wk2/ros2_ws/build/tutorial/install.log --single-version-externally-managed

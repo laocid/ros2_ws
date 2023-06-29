@@ -35,7 +35,7 @@ def generate_launch_description():
     )
     base_distance_launch_arg = DeclareLaunchArgument(
         'base_distance',
-        default_value = '0.075'
+        default_value = '0.110'
     )
     
     # Launch motors

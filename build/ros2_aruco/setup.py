@@ -1,0 +1,1 @@
+/home/pi/wk2/ros2_ws/src/ros2_aruco/ros2_aruco/setup.py

@@ -19,15 +19,15 @@ def generate_launch_description():
     # Launch arguments
     robot_ns_launch_arg = DeclareLaunchArgument(
         'robot_ns',
-        default_value = 'rp2'
+        default_value = 'rp0'
     )
     left_motor_port_launch_arg = DeclareLaunchArgument(
         'left_motor_port',
-        default_value = 'A'
+        default_value = 'C'
     )
     right_motor_port_launch_arg = DeclareLaunchArgument(
         'right_motor_port',
-        default_value = 'D'
+        default_value = 'B'
     )
     wheel_radius_launch_arg = DeclareLaunchArgument(
         'wheel_radius',
@@ -42,7 +42,7 @@ def generate_launch_description():
     motors = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('my_package'),
+                FindPackageShare('ros2_brickpi3'),
                 'launch',
                 'motors.launch.py'
             ])
@@ -56,7 +56,7 @@ def generate_launch_description():
 
     # Differential drive node
     drive = Node(
-        package = 'my_package',
+        package = 'ros2_brickpi3',
         namespace = robot_ns,
         executable = 'drive',
         name = 'differential_drive_controller',
