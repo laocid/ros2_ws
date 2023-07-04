@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_path_planning/srv/PlanTrajectory.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "nav_msgs/msg/OccupancyGrid.idl"
+
+module ros2_path_planning {
+  module srv {
+    struct PlanTrajectory_Request {
+      geometry_msgs::msg::Pose robot_position;
+
+      geometry_msgs::msg::Pose target_position;
+
+      nav_msgs::msg::OccupancyGrid grid_map;
+    };
+    struct PlanTrajectory_Response {
+      sequence<geometry_msgs::msg::Pose> trajectory;
+    };
+  };
+};

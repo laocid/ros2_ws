@@ -1,0 +1,13 @@
+[10.794s] Invoking command in '/home/pi/wk2/ros2_ws/build/tutorial': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/tutorial/build
+[14.343s] running develop
+[14.352s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.352s]   warnings.warn(
+[14.361s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.362s]   warnings.warn(
+[14.869s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[14.870s]   warnings.warn(
+[14.878s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[14.878s]   warnings.warn(
+[14.883s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[14.883s]   warnings.warn(
+[15.799s] Removing /home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial.egg-link (link to .)

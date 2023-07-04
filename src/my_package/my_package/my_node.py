@@ -5,6 +5,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist, Pose2D
 from nav_msgs.msg import Odometry
 import numpy as np
+from ros2_aruco_interfaces.msg import ArucoMarkers
 
 #  Class for handle My Node
 class MyNode(Node):
@@ -14,6 +15,7 @@ class MyNode(Node):
 
         self.cmd_data = Twist()
         self.odom_data = Odometry()
+        self.aruco_data = ArucoMarkers()
 
         self.coord = coordinates
         self.target = self.coord[0]
@@ -22,13 +24,21 @@ class MyNode(Node):
         self.epsilon = 0.1
 
         # Setup cmd publisher
-        self.cmd_publisher = self.create_publisher(Twist, 'cmd', 10)
+        # self.cmd_publisher = self.create_publisher(Twist, 'cmd', 10)
 
         # Setup odom subscription
-        self.odom_subscription = self.create_subscription(
-            Odometry,
-            'odom',
-            self.odom_callback,
+        # self.odom_subscription = self.create_subscription(
+        #     Odometry,
+        #     'odom',
+        #     self.odom_callback,
+        #     10
+        # )
+        
+        # Setup aruco subscription
+        self.aruco_subscription = self.create_subscription(
+            ArucoMarkers,
+            '/robot_location',
+            self.aruco_callback,
             10
         )
 
@@ -37,8 +47,8 @@ class MyNode(Node):
         # <Setup gyroscope>
         
         # Setup timer callback
-        timer_period = 0.01  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        # timer_period = 0.01  # seconds
+        # self.timer = self.create_timer(timer_period, self.timer_callback)
     # Convert quaternions to euler angles for Z plane only
     def quaternion_to_yaw(self):
         q = self.odom_data.pose.pose.orientation
@@ -50,8 +60,10 @@ class MyNode(Node):
         
     def get_pose(self):
         pose = Pose2D()
-        pose.x = self.odom_data.pose.pose.position.x
-        pose.y = self.odom_data.pose.pose.position.y
+        # pose.x = self.odom_data.pose.pose.position.x
+        # pose.y = self.odom_data.pose.pose.position.y
+        
+        
         pose.theta = self.quaternion_to_yaw()
         return pose
 
@@ -83,6 +95,7 @@ class MyNode(Node):
         msg.linear.x = self.limit if distance > self.limit else distance
         msg.angular.z = angle
 
+        """"
         self.get_logger().info(
             str(
                 {
@@ -96,6 +109,7 @@ class MyNode(Node):
             ),
             throttle_duration_sec=0.1,
         )
+        """
 
         # Once path finished, set to zero
         if len(self.coord) == 0:
@@ -109,6 +123,11 @@ class MyNode(Node):
     # Invoke on every odometer reading
     def odom_callback(self, msg):
         self.odom_data = msg
+        self.get_logger().info(f"(odom callback invoked)")
+        
+    def aruco_callback(self, msg: ArucoMarkers):
+        self.aruco_data = msg
+        print(msg)
 
 # Main function
 def main(args = None):

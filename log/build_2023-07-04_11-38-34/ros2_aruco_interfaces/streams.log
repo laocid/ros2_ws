@@ -1,0 +1,97 @@
+[0.236s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/my_package:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble /usr/bin/cmake /home/pi/wk2/ros2_ws/src/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces
+[4.822s] -- The C compiler identification is GNU 11.3.0
+[4.822s] -- The CXX compiler identification is GNU 11.3.0
+[4.823s] -- Detecting C compiler ABI info
+[4.823s] -- Detecting C compiler ABI info - done
+[4.824s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.825s] -- Detecting C compile features
+[4.825s] -- Detecting C compile features - done
+[4.826s] -- Detecting CXX compiler ABI info
+[4.826s] -- Detecting CXX compiler ABI info - done
+[4.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.827s] -- Detecting CXX compile features
+[4.827s] -- Detecting CXX compile features - done
+[4.828s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.828s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.855s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.004s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.056s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.132s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.992s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.616s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.919s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[15.948s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.260s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[16.261s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.261s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.262s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[16.611s] -- Found PythonExtra: .so  
+[17.268s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.510s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.525s] -- Added test 'lint_cmake' to check CMake code style
+[17.535s] -- Added test 'xmllint' to check XML markup files
+[17.570s] -- Configuring done
+[18.560s] -- Generating done
+[18.603s] -- Build files have been written to: /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces
+[19.867s] Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/my_package:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble /usr/bin/cmake /home/pi/wk2/ros2_ws/src/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces
+[19.874s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/my_package:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble /usr/bin/cmake --build /home/pi/wk2/ros2_ws/build/ros2_aruco_interfaces -- -j4 -l4
+[20.175s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.001s] [  3%] Built target ros2_aruco_interfaces__cpp
+[24.314s] [  3%] Built target ament_cmake_python_symlink_ros2_aruco_interfaces
+[24.466s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.029s] [  9%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o[0m
+[34.758s] [ 12%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[35.296s] [ 12%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[35.464s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.993s] [ 19%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o[0m
+[40.745s] [ 22%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[41.204s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[43.423s] running egg_info
+[43.430s] creating ros2_aruco_interfaces.egg-info
+[43.439s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[43.448s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[43.457s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[43.463s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[43.474s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[43.476s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[43.619s] [ 22%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[43.687s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[45.200s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[47.138s] [ 32%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_cpp.so[0m
+[47.333s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[47.387s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[48.601s] [ 38%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c.o[0m
+[48.843s] [ 41%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_generator_c.so[0m
+[49.016s] [ 41%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[49.062s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[50.094s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o[0m
+[51.556s] [ 51%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[51.902s] [ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[51.944s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[52.911s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[53.074s] [ 61%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_c.so[0m
+[53.235s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[53.280s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[54.323s] [ 67%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c.o[0m
+[54.532s] [ 70%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[54.678s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[54.765s] [ 70%] Built target ros2_aruco_interfaces
+[54.851s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[56.213s] [ 74%] Built target ros2_aruco_interfaces__py
+[56.299s] [ 77%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c.o[0m
+[56.808s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so[0m
+[57.005s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[57.093s] [ 83%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[57.611s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[57.806s] [ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[57.893s] [ 90%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[58.406s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[58.596s] [ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[58.681s] [ 96%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[59.198s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[59.399s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext

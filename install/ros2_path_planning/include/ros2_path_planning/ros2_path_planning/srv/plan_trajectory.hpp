@@ -1,0 +1,1 @@
+/home/pi/wk2/ros2_ws/build/ros2_path_planning/rosidl_generator_cpp/ros2_path_planning/srv/plan_trajectory.hpp

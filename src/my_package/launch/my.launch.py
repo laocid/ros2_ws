@@ -68,7 +68,6 @@ def generate_launch_description():
 
     my_node = Node(
         package = 'my_package',
-        namespace = robot_ns,
         executable = 'my_node',
         name = 'my_node',
     )

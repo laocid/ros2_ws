@@ -1,0 +1,3 @@
+geometry_msgs/Pose robot_position
+geometry_msgs/Pose target_position
+nav_msgs/OccupancyGrid grid_map

@@ -1,0 +1,41 @@
+[7.841s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build
+[10.586s] running develop
+[10.587s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.588s]   warnings.warn(
+[10.597s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.598s]   warnings.warn(
+[11.253s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[11.254s]   warnings.warn(
+[11.266s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[11.273s]   warnings.warn(
+[11.274s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[11.275s]   warnings.warn(
+[13.207s] Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build
+[13.228s] Invoking command in '/home/pi/wk2/ros2_ws/src/ros2_brickpi3': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_brickpi3 build --build-base /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build install --record /home/pi/wk2/ros2_ws/build/ros2_brickpi3/install.log --single-version-externally-managed
+[15.293s] running egg_info
+[15.296s] writing ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/PKG-INFO
+[15.299s] writing dependency_links to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/dependency_links.txt
+[15.299s] writing entry points to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/entry_points.txt
+[15.300s] writing requirements to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt
+[15.301s] writing top-level names to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt
+[15.311s] reading manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[15.313s] adding license file 'LICENSE'
+[15.316s] writing manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[15.317s] running build
+[15.318s] running build_py
+[15.322s] running install
+[15.322s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.323s]   warnings.warn(
+[15.323s] running install_lib
+[15.332s] running install_data
+[15.335s] running install_egg_info
+[15.346s] removing '/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.1-py3.10.egg-info' (and everything under it)
+[15.348s] Copying ../../build/ros2_brickpi3/ros2_brickpi3.egg-info to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.1-py3.10.egg-info
+[15.358s] running install_scripts
+[15.492s] Installing color script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.495s] Installing drive script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.495s] Installing gyro script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.495s] Installing motor script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.496s] Installing touch script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.501s] Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[15.505s] writing list of installed files to '/home/pi/wk2/ros2_ws/build/ros2_brickpi3/install.log'

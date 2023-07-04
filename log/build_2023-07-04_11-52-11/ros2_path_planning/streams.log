@@ -1,0 +1,27 @@
+[0.311s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_path_planning': CMAKE_PREFIX_PATH=/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble /usr/bin/cmake /home/pi/wk2/ros2_ws/src/ros2_path_planning -DCMAKE_INSTALL_PREFIX=/home/pi/wk2/ros2_ws/install/ros2_path_planning
+[0.461s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.261s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.299s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.457s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.471s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.498s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.913s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.921s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.572s] -- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)
+[3.583s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.854s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.408s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.459s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[4.459s]   rosidl_generate_interfaces() the passed file 'srv/PlanTrajectory.srv'
+[4.460s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.460s]   '/home/pi/wk2/ros2_ws/src/ros2_path_planning'
+[4.460s] Call Stack (most recent call first):
+[4.462s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[4.471s] 
+[4.472s] [0m
+[4.472s] -- Configuring incomplete, errors occurred!
+[4.473s] See also "/home/pi/wk2/ros2_ws/build/ros2_path_planning/CMakeFiles/CMakeOutput.log".
+[4.511s] Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_path_planning' returned '1': CMAKE_PREFIX_PATH=/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble /usr/bin/cmake /home/pi/wk2/ros2_ws/src/ros2_path_planning -DCMAKE_INSTALL_PREFIX=/home/pi/wk2/ros2_ws/install/ros2_path_planning

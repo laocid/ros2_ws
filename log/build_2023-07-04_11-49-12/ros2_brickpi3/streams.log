@@ -1,0 +1,69 @@
+[7.983s] Invoking command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build
+[10.854s] running develop
+[10.859s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.860s]   warnings.warn(
+[10.869s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.875s]   warnings.warn(
+[11.307s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[11.308s]   warnings.warn(
+[11.315s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[11.316s]   warnings.warn(
+[11.316s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[11.317s]   warnings.warn(
+[12.179s] Removing /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2-brickpi3.egg-link (link to .)
+[13.786s] Invoked command in '/home/pi/wk2/ros2_ws/build/ros2_brickpi3' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build
+[13.792s] Invoking command in '/home/pi/wk2/ros2_ws/src/ros2_brickpi3': PYTHONPATH=/home/pi/wk2/ros2_ws/build/ros2_brickpi3/prefix_override:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_brickpi3 build --build-base /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build install --record /home/pi/wk2/ros2_ws/build/ros2_brickpi3/install.log --single-version-externally-managed
+[15.826s] running egg_info
+[15.847s] writing ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/PKG-INFO
+[15.857s] writing dependency_links to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/dependency_links.txt
+[15.867s] writing entry points to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/entry_points.txt
+[15.881s] writing requirements to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/requires.txt
+[15.903s] writing top-level names to ../../build/ros2_brickpi3/ros2_brickpi3.egg-info/top_level.txt
+[15.956s] reading manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[15.963s] adding license file 'LICENSE'
+[15.970s] writing manifest file '../../build/ros2_brickpi3/ros2_brickpi3.egg-info/SOURCES.txt'
+[15.983s] running build
+[15.988s] running build_py
+[15.993s] creating /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build
+[16.000s] creating /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib
+[16.007s] creating /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.013s] copying ros2_brickpi3/ultrasonic.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.024s] copying ros2_brickpi3/killall.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.033s] copying ros2_brickpi3/gyro.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.044s] copying ros2_brickpi3/motor.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.053s] copying ros2_brickpi3/touch.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.061s] copying ros2_brickpi3/color.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.069s] copying ros2_brickpi3/__init__.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.086s] copying ros2_brickpi3/drive.py -> /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3
+[16.093s] running install
+[16.113s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.115s]   warnings.warn(
+[16.119s] running install_lib
+[16.124s] creating /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.128s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/ultrasonic.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.131s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/killall.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.142s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/gyro.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.155s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/motor.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.158s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/touch.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.162s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/color.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.165s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/__init__.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.169s] copying /home/pi/wk2/ros2_ws/build/ros2_brickpi3/build/lib/ros2_brickpi3/drive.py -> /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3
+[16.175s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/ultrasonic.py to ultrasonic.cpython-310.pyc
+[16.209s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/killall.py to killall.cpython-310.pyc
+[16.213s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/gyro.py to gyro.cpython-310.pyc
+[16.219s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/motor.py to motor.cpython-310.pyc
+[16.225s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/touch.py to touch.cpython-310.pyc
+[16.230s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/color.py to color.cpython-310.pyc
+[16.235s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/__init__.py to __init__.cpython-310.pyc
+[16.239s] byte-compiling /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3/drive.py to drive.cpython-310.pyc
+[16.246s] running install_data
+[16.252s] running install_egg_info
+[16.265s] Copying ../../build/ros2_brickpi3/ros2_brickpi3.egg-info to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages/ros2_brickpi3-0.0.1-py3.10.egg-info
+[16.275s] running install_scripts
+[16.497s] Installing color script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.501s] Installing drive script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.506s] Installing gyro script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.510s] Installing motor script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.515s] Installing touch script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.521s] Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/ros2_brickpi3
+[16.527s] writing list of installed files to '/home/pi/wk2/ros2_ws/build/ros2_brickpi3/install.log'

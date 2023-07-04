@@ -1,0 +1,1 @@
+Invoking command in '/home/pi/wk2/ros2_ws/build/tutorial': PYTHONPATH=/home/pi/wk2/ros2_ws/build/tutorial/prefix_override:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/tutorial/build

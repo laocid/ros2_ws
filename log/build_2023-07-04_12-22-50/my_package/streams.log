@@ -1,0 +1,36 @@
+[2.920s] Invoking command in '/home/pi/wk2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces:/home/pi/wk2/ros2_ws/install/ros2_path_planning LD_LIBRARY_PATH=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces/lib:/home/pi/wk2/ros2_ws/install/ros2_path_planning/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/my_package/build --no-deps install_data
+[4.093s] running develop
+[4.094s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.095s]   warnings.warn(
+[4.099s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.100s]   warnings.warn(
+[4.336s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[4.337s]   warnings.warn(
+[4.338s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.338s]   warnings.warn(
+[4.339s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[4.339s]   warnings.warn(
+[4.768s] running egg_info
+[4.769s] writing my_package.egg-info/PKG-INFO
+[4.770s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[4.771s] writing entry points to my_package.egg-info/entry_points.txt
+[4.772s] writing requirements to my_package.egg-info/requires.txt
+[4.773s] writing top-level names to my_package.egg-info/top_level.txt
+[4.781s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[4.785s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[4.793s] running build_ext
+[4.795s] Creating /home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[4.799s] Installing aruco script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.800s] Installing color script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.800s] Installing drive script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.801s] Installing gyro script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.802s] Installing motor script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.803s] Installing my_node script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.804s] Installing planner_client script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.805s] Installing touch script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.805s] Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+[4.807s] 
+[4.807s] Installed /home/pi/wk2/ros2_ws/build/my_package
+[4.808s] running install_data
+[4.809s] copying launch/hackjob.launch.py -> /home/pi/wk2/ros2_ws/install/my_package/share/my_package/launch
+[4.947s] Invoked command in '/home/pi/wk2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces:/home/pi/wk2/ros2_ws/install/ros2_path_planning LD_LIBRARY_PATH=/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces/lib:/home/pi/wk2/ros2_ws/install/ros2_path_planning/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wk2/ros2_ws/build/my_package/build --no-deps install_data

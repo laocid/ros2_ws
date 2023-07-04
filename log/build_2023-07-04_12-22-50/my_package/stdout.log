@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing my_package.egg-info/PKG-INFO
+writing dependency_links to my_package.egg-info/dependency_links.txt
+writing entry points to my_package.egg-info/entry_points.txt
+writing requirements to my_package.egg-info/requires.txt
+writing top-level names to my_package.egg-info/top_level.txt
+reading manifest file 'my_package.egg-info/SOURCES.txt'
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+Installing aruco script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing color script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing drive script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing gyro script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing motor script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing my_node script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing planner_client script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing touch script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package
+
+Installed /home/pi/wk2/ros2_ws/build/my_package
+running install_data
+copying launch/hackjob.launch.py -> /home/pi/wk2/ros2_ws/install/my_package/share/my_package/launch

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating tutorial.egg-info
+writing tutorial.egg-info/PKG-INFO
+writing dependency_links to tutorial.egg-info/dependency_links.txt
+writing entry points to tutorial.egg-info/entry_points.txt
+writing requirements to tutorial.egg-info/requires.txt
+writing top-level names to tutorial.egg-info/top_level.txt
+writing manifest file 'tutorial.egg-info/SOURCES.txt'
+reading manifest file 'tutorial.egg-info/SOURCES.txt'
+writing manifest file 'tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages/tutorial.egg-link (link to .)
+Installing listener script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial
+Installing talker script to /home/pi/wk2/ros2_ws/install/tutorial/lib/tutorial
+
+Installed /home/pi/wk2/ros2_ws/build/tutorial
+running install_data
+creating /home/pi/wk2/ros2_ws/install/tutorial/share/ament_index
+creating /home/pi/wk2/ros2_ws/install/tutorial/share/ament_index/resource_index
+creating /home/pi/wk2/ros2_ws/install/tutorial/share/ament_index/resource_index/packages
+copying resource/tutorial -> /home/pi/wk2/ros2_ws/install/tutorial/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/wk2/ros2_ws/install/tutorial/share/tutorial

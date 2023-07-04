@@ -1,0 +1,35 @@
+[7.956s] Invoking command in '/home/pi/wk2/ros2_ws/build/path_finder': PYTHONPATH=/home/pi/wk2/ros2_ws/build/path_finder/prefix_override:/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/path_finder/build
+[9.796s] running develop
+[9.800s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.800s]   warnings.warn(
+[9.808s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.809s]   warnings.warn(
+[10.243s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[10.244s]   warnings.warn(
+[10.246s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[10.251s]   warnings.warn(
+[10.256s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[10.258s]   warnings.warn(
+[11.270s] Invoked command in '/home/pi/wk2/ros2_ws/build/path_finder' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/path_finder/prefix_override:/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/path_finder/build
+[11.275s] Invoking command in '/home/pi/wk2/ros2_ws/src/path_finder': PYTHONPATH=/home/pi/wk2/ros2_ws/build/path_finder/prefix_override:/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_finder build --build-base /home/pi/wk2/ros2_ws/build/path_finder/build install --record /home/pi/wk2/ros2_ws/build/path_finder/install.log --single-version-externally-managed
+[13.218s] running egg_info
+[13.227s] writing ../../build/path_finder/path_finder.egg-info/PKG-INFO
+[13.236s] writing dependency_links to ../../build/path_finder/path_finder.egg-info/dependency_links.txt
+[13.239s] writing entry points to ../../build/path_finder/path_finder.egg-info/entry_points.txt
+[13.244s] writing requirements to ../../build/path_finder/path_finder.egg-info/requires.txt
+[13.263s] writing top-level names to ../../build/path_finder/path_finder.egg-info/top_level.txt
+[13.303s] reading manifest file '../../build/path_finder/path_finder.egg-info/SOURCES.txt'
+[13.307s] writing manifest file '../../build/path_finder/path_finder.egg-info/SOURCES.txt'
+[13.326s] running build
+[13.328s] running build_py
+[13.330s] running install
+[13.331s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.332s]   warnings.warn(
+[13.340s] running install_lib
+[13.348s] running install_data
+[13.358s] running install_egg_info
+[13.376s] removing '/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages/path_finder-0.0.0-py3.10.egg-info' (and everything under it)
+[13.380s] Copying ../../build/path_finder/path_finder.egg-info to /home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages/path_finder-0.0.0-py3.10.egg-info
+[13.424s] running install_scripts
+[13.582s] writing list of installed files to '/home/pi/wk2/ros2_ws/build/path_finder/install.log'
+[13.982s] Invoked command in '/home/pi/wk2/ros2_ws/src/path_finder' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/path_finder/prefix_override:/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_finder build --build-base /home/pi/wk2/ros2_ws/build/path_finder/build install --record /home/pi/wk2/ros2_ws/build/path_finder/install.log --single-version-externally-managed

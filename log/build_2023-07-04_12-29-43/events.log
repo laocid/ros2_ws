@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.002121] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003033] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.005159] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.005352] (-) JobUnselected: {'identifier': 'ros2_brickpi3'}
+[0.005875] (-) JobUnselected: {'identifier': 'ros2_path_planning'}
+[0.006030] (-) JobUnselected: {'identifier': 'tutorial'}
+[0.007574] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict([('ros2_aruco_interfaces', '/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces')])}
+[0.007785] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.111026] (-) TimerEvent: {}
+[0.212094] (-) TimerEvent: {}
+[0.313125] (-) TimerEvent: {}
+[0.414245] (-) TimerEvent: {}
+[0.515595] (-) TimerEvent: {}
+[0.616547] (-) TimerEvent: {}
+[0.717402] (-) TimerEvent: {}
+[0.818274] (-) TimerEvent: {}
+[0.919224] (-) TimerEvent: {}
+[1.019981] (-) TimerEvent: {}
+[1.121335] (-) TimerEvent: {}
+[1.222215] (-) TimerEvent: {}
+[1.323349] (-) TimerEvent: {}
+[1.424632] (-) TimerEvent: {}
+[1.525502] (-) TimerEvent: {}
+[1.626272] (-) TimerEvent: {}
+[1.727157] (-) TimerEvent: {}
+[1.827926] (-) TimerEvent: {}
+[1.929173] (-) TimerEvent: {}
+[2.029994] (-) TimerEvent: {}
+[2.130794] (-) TimerEvent: {}
+[2.231493] (-) TimerEvent: {}
+[2.332222] (-) TimerEvent: {}
+[2.433005] (-) TimerEvent: {}
+[2.533746] (-) TimerEvent: {}
+[2.634508] (-) TimerEvent: {}
+[2.735751] (-) TimerEvent: {}
+[2.837267] (-) TimerEvent: {}
+[2.938169] (-) TimerEvent: {}
+[3.011982] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/wk2/ros2_ws/build/my_package/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/wk2/ros2_ws/build/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,1330,2', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.18 58434 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces/lib:/home/pi/wk2/ros2_ws/install/ros2_path_planning/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/wk2/ros2_ws/src/ros2_path_planning/ros2_path_planning', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/wk2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/home/pi/wk2/ros2_ws/install/tutorial:/home/pi/wk2/ros2_ws/install/ros2_path_planning:/home/pi/wk2/ros2_ws/install/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/my_package:/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces:/home/pi/wk2/ros2_ws/install/ros2_aruco:/home/pi/wk2/ros2_ws/install/py_srvcli:/home/pi/wk2/ros2_ws/install/path_finder:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/wk2/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.18 33218 192.168.1.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/wk2/ros2_ws/build/my_package/prefix_override:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/build/tutorial:/home/pi/wk2/ros2_ws/install/tutorial/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/install/ros2_path_planning/local/lib/python3.10/dist-packages:/home/pi/wk2/ros2_ws/build/ros2_brickpi3:/home/pi/wk2/ros2_ws/install/ros2_brickpi3/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/build/my_package:/home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/pi/wk2/ros2_ws/build/ros2_aruco:/home/pi/wk2/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/build/py_srvcli:/home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/pi/wk2/ros2_ws/install/path_finder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/home/pi/wk2/ros2_ws/install/ros2_aruco_interfaces:/home/pi/wk2/ros2_ws/install/ros2_path_planning'}, 'shell': False}
+[3.038378] (-) TimerEvent: {}
+[3.139424] (-) TimerEvent: {}
+[3.240200] (-) TimerEvent: {}
+[3.341502] (-) TimerEvent: {}
+[3.442351] (-) TimerEvent: {}
+[3.543493] (-) TimerEvent: {}
+[3.644628] (-) TimerEvent: {}
+[3.745786] (-) TimerEvent: {}
+[3.846600] (-) TimerEvent: {}
+[3.948358] (-) TimerEvent: {}
+[4.049130] (-) TimerEvent: {}
+[4.149924] (-) TimerEvent: {}
+[4.181177] (my_package) StdoutLine: {'line': b'running develop\n'}
+[4.183578] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.184400] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.188181] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.188851] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.250077] (-) TimerEvent: {}
+[4.350897] (-) TimerEvent: {}
+[4.425171] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[4.425882] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.428292] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[4.428754] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.429157] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[4.429531] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.451056] (-) TimerEvent: {}
+[4.551889] (-) TimerEvent: {}
+[4.652601] (-) TimerEvent: {}
+[4.753310] (-) TimerEvent: {}
+[4.850232] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.851136] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[4.852138] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[4.853273] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[4.854285] (-) TimerEvent: {}
+[4.856544] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[4.857234] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[4.864566] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[4.869054] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[4.876273] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[4.877406] (my_package) StdoutLine: {'line': b'Creating /home/pi/wk2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[4.881414] (my_package) StdoutLine: {'line': b'Installing aruco script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.882418] (my_package) StdoutLine: {'line': b'Installing color script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.883359] (my_package) StdoutLine: {'line': b'Installing drive script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.884219] (my_package) StdoutLine: {'line': b'Installing gyro script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.885061] (my_package) StdoutLine: {'line': b'Installing motor script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.885902] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.887793] (my_package) StdoutLine: {'line': b'Installing planner_client script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.888341] (my_package) StdoutLine: {'line': b'Installing touch script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.896390] (my_package) StdoutLine: {'line': b'Installing ultrasonic script to /home/pi/wk2/ros2_ws/install/my_package/lib/my_package\n'}
+[4.897725] (my_package) StdoutLine: {'line': b'\n'}
+[4.898980] (my_package) StdoutLine: {'line': b'Installed /home/pi/wk2/ros2_ws/build/my_package\n'}
+[4.900140] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[4.901273] (my_package) StdoutLine: {'line': b'copying launch/hackjob.launch.py -> /home/pi/wk2/ros2_ws/install/my_package/share/my_package/launch\n'}
+[4.954657] (-) TimerEvent: {}
+[5.023909] (my_package) CommandEnded: {'returncode': 0}
+[5.054916] (-) TimerEvent: {}
+[5.109684] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[5.114215] (-) EventReactorShutdown: {}

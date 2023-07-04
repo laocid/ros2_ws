@@ -24,6 +24,9 @@ setup(
     entry_points={
         'console_scripts': [
             "my_node = my_package.my_node:main",
+            "planner_client = my_package.planner_client:main",
+            "aruco = my_package.aruco:main",
+            "maze = my_package.maze:main",
             "color = my_package.color:main",
             "drive = my_package.drive:main",
             "gyro = my_package.gyro:main",

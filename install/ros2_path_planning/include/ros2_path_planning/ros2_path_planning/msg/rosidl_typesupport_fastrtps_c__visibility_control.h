@@ -1,0 +1,1 @@
+/home/pi/wk2/ros2_ws/build/ros2_path_planning/rosidl_typesupport_fastrtps_c/ros2_path_planning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

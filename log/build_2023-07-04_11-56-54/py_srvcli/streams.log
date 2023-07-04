@@ -1,0 +1,36 @@
+[8.257s] Invoking command in '/home/pi/wk2/ros2_ws/build/py_srvcli': PYTHONPATH=/home/pi/wk2/ros2_ws/build/py_srvcli/prefix_override:/home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/py_srvcli/build
+[11.718s] running develop
+[11.721s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.722s]   warnings.warn(
+[11.728s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.729s]   warnings.warn(
+[12.173s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[12.174s]   warnings.warn(
+[12.174s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[12.178s]   warnings.warn(
+[12.181s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[12.181s]   warnings.warn(
+[13.223s] Invoked command in '/home/pi/wk2/ros2_ws/build/py_srvcli' returned '0': PYTHONPATH=/home/pi/wk2/ros2_ws/build/py_srvcli/prefix_override:/home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pi/wk2/ros2_ws/build/py_srvcli/build
+[13.226s] Invoking command in '/home/pi/wk2/ros2_ws/src/py_srvcli': PYTHONPATH=/home/pi/wk2/ros2_ws/build/py_srvcli/prefix_override:/home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/pi/wk2/ros2_ws/build/py_srvcli/build install --record /home/pi/wk2/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[15.849s] running egg_info
+[15.856s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[15.858s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[15.859s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[15.863s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[15.863s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[15.884s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[15.892s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[15.895s] running build
+[15.896s] running build_py
+[15.908s] running install
+[15.909s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.910s]   warnings.warn(
+[15.924s] running install_lib
+[15.924s] running install_data
+[15.925s] running install_egg_info
+[15.941s] removing '/home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[15.963s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/pi/wk2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[16.017s] running install_scripts
+[16.286s] Installing client script to /home/pi/wk2/ros2_ws/install/py_srvcli/lib/py_srvcli
+[16.297s] Installing service script to /home/pi/wk2/ros2_ws/install/py_srvcli/lib/py_srvcli
+[16.311s] writing list of installed files to '/home/pi/wk2/ros2_ws/build/py_srvcli/install.log'

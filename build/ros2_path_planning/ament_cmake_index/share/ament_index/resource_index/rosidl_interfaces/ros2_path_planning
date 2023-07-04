@@ -1,0 +1,4 @@
+srv/PlanTrajectory.idl
+srv/PlanTrajectory.srv
+srv/PlanTrajectory_Request.msg
+srv/PlanTrajectory_Response.msg
